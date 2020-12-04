@@ -1,5 +1,42 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2097568318958632769
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a34fa72bd4185749832024e9c8010bf, type: 3}
+  m_Name: ScreenSpaceReflections
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  preset:
+    overrideState: 0
+    value: 2
+  maximumIterationCount:
+    overrideState: 0
+    value: 16
+  resolution:
+    overrideState: 0
+    value: 0
+  thickness:
+    overrideState: 0
+    value: 8
+  maximumMarchDistance:
+    overrideState: 1
+    value: 100
+  distanceFade:
+    overrideState: 1
+    value: 0.5
+  vignette:
+    overrideState: 0
+    value: 0.5
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17,6 +54,7 @@ MonoBehaviour:
   - {fileID: 6689586715150692311}
   - {fileID: 7611227330236625028}
   - {fileID: 8171844474632961059}
+  - {fileID: -2097568318958632769}
 --- !u!114 &1301838297056907165
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -41,7 +79,7 @@ MonoBehaviour:
     value: 1.44
   color:
     overrideState: 1
-    value: {r: 0.07471519, g: 0.12231438, b: 0.21698111, a: 1}
+    value: {r: 0.026254892, g: 0.030719232, b: 0.09433961, a: 1}
   ambientOnly:
     overrideState: 0
     value: 1
@@ -152,8 +190,8 @@ MonoBehaviour:
     overrideState: 0
     value: -5
   colorFilter:
-    overrideState: 0
-    value: {r: 0, g: 0.254717, b: 0.016003132, a: 1}
+    overrideState: 1
+    value: {r: 0.69855815, g: 0.82091045, b: 0.8867924, a: 1}
   hueShift:
     overrideState: 0
     value: 73
@@ -1423,10 +1461,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 50
+    value: 5
   threshold:
     overrideState: 1
-    value: 0.9
+    value: 1
   softKnee:
     overrideState: 0
     value: 0.5
@@ -1440,7 +1478,7 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   color:
-    overrideState: 1
+    overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
   fastMode:
     overrideState: 0

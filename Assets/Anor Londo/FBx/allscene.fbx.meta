@@ -3,7 +3,32 @@ guid: 13131c1a15a81b740ae2f3b701fd7ec2
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Transparence
+    second: {fileID: 2100000, guid: c42812c2361fba544a5c2d982fbbbb22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: ffb31a8adcd0f194099edd8908c33c6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texturetest
+    second: {fileID: 2100000, guid: ac666ddf77c94d741a76746ef2fa7b14, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Texturetrans
+    second: {fileID: 2800000, guid: c209853e08975d64296f96c47898beaf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: texturetest
+    second: {fileID: 2800000, guid: 9841fab81c372f54d8a2f80060dac8ec, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
