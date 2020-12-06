@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a34fa72bd4185749832024e9c8010bf, type: 3}
   m_Name: ScreenSpaceReflections
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -185,7 +185,7 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: -54
+    value: -39
   tint:
     overrideState: 0
     value: -5
@@ -196,8 +196,8 @@ MonoBehaviour:
     overrideState: 0
     value: 73
   saturation:
-    overrideState: 0
-    value: 43
+    overrideState: 1
+    value: 17
   brightness:
     overrideState: 0
     value: 0
@@ -205,8 +205,8 @@ MonoBehaviour:
     overrideState: 0
     value: 58.77
   contrast:
-    overrideState: 0
-    value: 32
+    overrideState: 1
+    value: 3
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
@@ -1461,10 +1461,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 5
+    value: 1.32
   threshold:
     overrideState: 1
-    value: 1
+    value: 0.5
   softKnee:
     overrideState: 0
     value: 0.5
