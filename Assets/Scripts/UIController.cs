@@ -13,4 +13,9 @@ public class UIController : MonoBehaviour
         ControlsParent.SetActive(!ControlsParent.activeSelf);
         Background.enabled = ControlsParent.activeSelf;
     }
+
+    public void OnExitGameUI()
+    {
+        Application.Quit();
+    }
 }
